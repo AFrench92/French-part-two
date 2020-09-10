@@ -5,7 +5,7 @@ for(let i = 0; i < input; i++){
 }
 console.log(rain);
 let yield = 50;
-if(input>20){
+if(input>=20){
   yield *= 0.9;
 }else if(input<10){
   yield *= 0.8;
